@@ -1,0 +1,11 @@
+myenv/
+.venv/
+spark/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+*.log
+data/
