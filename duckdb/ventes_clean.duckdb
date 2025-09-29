@@ -1,0 +1,2 @@
+CREATE TABLE ventes_clean AS
+SELECT * FROM 'data/ventes_clean.csv';
