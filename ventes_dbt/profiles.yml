@@ -1,0 +1,6 @@
+ventes_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /Users/pernebayarailym/Documents/Portfolio_Projects_AP/Simplon_DE_Projects/Python_Projects/Project_Pyspark_DBT/duckdb/ventes_clean.duckdb
