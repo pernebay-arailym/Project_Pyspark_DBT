@@ -1,0 +1,13 @@
+
+    
+    
+    
+    create table "dev"."main"."ventes_clean" ("id_transaction" integer,"client_nom" text,"client_age" integer,"client_ville" text,"produit_nom" text,"produit_categorie" text,"produit_marque" text,"prix_catalogue" integer,"magasin_nom" text,"magasin_type" text,"magasin_region" text,"date" date,"quantite" integer,"purchase_date" date,"montant_total" integer)
+  ;
+    -- dbt seed --
+    
+          COPY "dev"."main"."ventes_clean" FROM '/Users/pernebayarailym/Documents/Portfolio_Projects_AP/Simplon_DE_Projects/Python_Projects/Project_Pyspark_DBT/seeds/ventes_clean.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  
