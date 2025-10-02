@@ -110,3 +110,8 @@ dbt run --select queries
 - Implementing a **star schema** for analytics.
 - Using dbt with **DuckDB for modular**, version-controlled SQL transformations.
 - Writing **business-focused queries** on top of clean, modeled data.
+---
+### 📝 Author
+
+👩‍💻 Arailym PERNEBAY
+🔗 [Arailym Pernebay](https://www.linkedin.com/in/arailym-pernebay/)
