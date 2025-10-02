@@ -106,7 +106,7 @@ dbt run --select queries
 ---
 ### 🎯 Key Learnings
 
-- Hands-on practice with "PySpark data cleaning".
-- Implementing a "star schema" for analytics.
-- Using dbt with "DuckDB for modular", version-controlled SQL transformations.
-- Writing "business-focused queries" on top of clean, modeled data.
+- Hands-on practice with **PySpark data cleaning**.
+- Implementing a **star schema** for analytics.
+- Using dbt with **DuckDB for modular**, version-controlled SQL transformations.
+- Writing **business-focused queries** on top of clean, modeled data.
