@@ -113,5 +113,4 @@ dbt run --select queries
 ---
 ### 📝 Author
 
-👩‍💻 Arailym PERNEBAY
-🔗 [Arailym Pernebay](https://www.linkedin.com/in/arailym-pernebay/)
+👩‍💻 🔗 [Arailym Pernebay](https://www.linkedin.com/in/arailym-pernebay/)
