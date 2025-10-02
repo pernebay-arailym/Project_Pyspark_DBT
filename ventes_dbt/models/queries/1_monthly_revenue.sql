@@ -6,11 +6,3 @@ join {{ref('dim_temps')}} t
 on f.purchase_date = t.purchase_date
 group by year_month
 order by year_month 
-
-
-
-
-
--- Quels sont les mois les plus rentables de l’année ? (Faire Top 3)
-
--- Quelle est l’évolution du panier moyen (montant_total / transaction) au fil du temps ?
