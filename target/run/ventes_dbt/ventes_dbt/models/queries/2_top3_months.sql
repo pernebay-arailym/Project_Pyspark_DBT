@@ -4,7 +4,7 @@
     
 
     create  table
-      "dev"."main"."2_top3_months__dbt_tmp"
+      "dev"."main_bonus"."2_top3_months__dbt_tmp"
   
     as (
       -- Quels sont les mois les plus rentables de l’année ? (Faire Top 3)

@@ -1,7 +1,13 @@
 
   
-  create view "dev"."main"."8_city_top_sales__dbt_tmp" as (
-    --Quelle ville génère le plus de ventes ?
+    
+    
+
+    create  table
+      "dev"."main_bonus"."8_city_top_sales__dbt_tmp"
+  
+    as (
+      --Quelle ville génère le plus de ventes ?
 with ranked_cities as (
     select
         client_city,
@@ -15,4 +21,6 @@ with ranked_cities as (
 select client_city, city_sales
 from ranked_cities
 where rn = 1
-  );
+    );
+  
+  
